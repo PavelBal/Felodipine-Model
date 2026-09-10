@@ -16,12 +16,12 @@
         },
         {
           "Path": "AADAC|Relative expression in blood cells",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in plasma",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
@@ -38,12 +38,12 @@
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
-          "Value": 4.8717948718E-05,
+          "Value": 4.8717948718e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
-          "Value": 3.9743589744E-05,
+          "Value": 3.9743589744e-05,
           "ValueOrigin": {}
         },
         {
@@ -58,7 +58,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
-          "Value": 5.7051282051E-05,
+          "Value": 5.7051282051e-05,
           "ValueOrigin": {}
         },
         {
@@ -480,7 +480,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05,
+          "Value": 4.0079365079e-05,
           "ValueOrigin": {}
         },
         {
@@ -1081,17 +1081,17 @@
           "Percentile": 0.0,
           "DistributionMetaData": [
             {
-              "Mean": 1E-14,
+              "Mean": 1e-14,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
             {
-              "Mean": 1.915059E-05,
+              "Mean": 1.915059e-05,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
             {
-              "Mean": 5.486795E-05,
+              "Mean": 5.486795e-05,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
@@ -1210,17 +1210,17 @@
           "Points": [
             {
               "X": 0.0,
-              "Y": 1E-14,
+              "Y": 1e-14,
               "RestartSolver": false
             },
             {
               "X": 0.08333334,
-              "Y": 1.915059E-05,
+              "Y": 1.915059e-05,
               "RestartSolver": false
             },
             {
               "X": 0.1666667,
-              "Y": 5.486795E-05,
+              "Y": 5.486795e-05,
               "RestartSolver": false
             },
             {
@@ -1687,7 +1687,7 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 5.3261558344E-05,
+              "Value": 5.3261558344e-05,
               "Unit": "dm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
@@ -3230,7 +3230,109 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Felodipine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "ER tablet 10mg|Organism|PeripheralVenousBlood|Felodipine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Edgar 1987 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Edgar 1987 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Edgar 1987 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Bailey 1996 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Bailey 1996 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Bailey 1996 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Gelal 2005 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Serum - agg. (n=10)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Gelal 2005 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Serum - agg. (n=10)|Time",
+              "Y": "Gelal 2005 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Serum - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Bailey 2003 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=8)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Bailey 2003 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Bailey 2003 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Felodipine-Model\nER tablet 10mg\n2022-08-16 15:14"
+        }
+      ]
     },
     {
       "Name": "ER tablet 5mg",
@@ -3595,7 +3697,91 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -0.4175867,
+              "Max": 33.85949,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 2.996388e-05,
+              "Max": 0.007465854,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Felodipine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "ER tablet 5mg|Organism|PeripheralVenousBlood|Felodipine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Goosen 2004 - 5mg-PO ER tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=11)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Goosen 2004 - 5mg-PO ER tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=11)|Time",
+              "Y": "Goosen 2004 - 5mg-PO ER tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Jalava 1997 - 5mg-PO ER tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=9)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Jalava 1997 - 5mg-PO ER tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=9)|Time",
+              "Y": "Jalava 1997 - 5mg-PO ER tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Felodipine-Model\nER tablet 5mg\n2022-08-16 15:15"
+        }
+      ]
     },
     {
       "Name": "ER tablet OD 10mg",
@@ -4165,7 +4351,113 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -10.6782,
+              "Max": 346.3781,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0001594874,
+              "Max": 0.02771711,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Felodipine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "ER tablet OD 10mg|Organism|PeripheralVenousBlood|Felodipine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Aberg 1997 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=36)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Aberg 1997 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=36)|Time",
+              "Y": "Aberg 1997 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Bailey 1995 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Bailey 1995 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Bailey 1995 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Lundahl 1998 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Lundahl 1998 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Lundahl 1998 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Blychert 1990 - Study II-10mg-PO ER tablet-market - Felodipine - PO - 10 mg - Plasma - agg. (n=15)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Blychert 1990 - Study II-10mg-PO ER tablet-market - Felodipine - PO - 10 mg - Plasma - agg. (n=15)|Time",
+              "Y": "Blychert 1990 - Study II-10mg-PO ER tablet-market - Felodipine - PO - 10 mg - Plasma - agg. (n=15)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Felodipine-Model\nER tablet OD 10mg\n2022-08-16 15:16"
+        }
+      ]
     },
     {
       "Name": "IR tablet 10mg",
@@ -4511,7 +4803,80 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -2.347416,
+              "Max": 15.50301,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 5.681006e-07,
+              "Max": 0.02823564,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Felodipine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "IR tablet 10mg|Organism|PeripheralVenousBlood|Felodipine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Edgar 1987 - 10mg-PO IR tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Edgar 1987 - 10mg-PO IR tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Edgar 1987 - 10mg-PO IR tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Felodipine-Model\nIR tablet 10mg\n2022-08-16 15:17"
+        }
+      ]
     },
     {
       "Name": "IR tablet 5mg",
@@ -4863,7 +5228,91 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -2.347416,
+              "Max": 15.50301,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 5.681006e-07,
+              "Max": 0.02823564,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Felodipine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "IR tablet 5mg|Organism|PeripheralVenousBlood|Felodipine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Bailey 1993 - 5mg-PO IR tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=9)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Bailey 1993 - 5mg-PO IR tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=9)|Time",
+              "Y": "Bailey 1993 - 5mg-PO IR tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Edgar 1992 - 5mg-PO IR tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=9)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Edgar 1992 - 5mg-PO IR tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=9)|Time",
+              "Y": "Edgar 1992 - 5mg-PO IR tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Felodipine-Model\nIR tablet 5mg\n2022-08-16 15:17"
+        }
+      ]
     },
     {
       "Name": "IV 1.5mg (60min)",
@@ -5203,7 +5652,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Felodipine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "IV 1.5mg (60min)|Organism|PeripheralVenousBlood|Felodipine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Lundahl 1997 - 1.5mg-IV infusion - Felodipine - IV - 1.5 mg - Plasma - agg. (n=12)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Lundahl 1997 - 1.5mg-IV infusion - Felodipine - IV - 1.5 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Lundahl 1997 - 1.5mg-IV infusion - Felodipine - IV - 1.5 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Felodipine-Model\nIV 1.5mg (60min)\n2022-08-16 15:18"
+        }
+      ]
     },
     {
       "Name": "Jalava_control",
@@ -5558,7 +6076,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Felodipine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Jalava_control|Organism|PeripheralVenousBlood|Felodipine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Jalava 1997 - 5mg-PO ER tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=9)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Jalava 1997 - 5mg-PO ER tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=9)|Time",
+              "Y": "Jalava 1997 - 5mg-PO ER tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Felodipine-Model\nJalava_control\n2022-08-16 15:18"
+        }
+      ]
     },
     {
       "Name": "Jalava_Treatment",
@@ -6063,7 +6650,7 @@
           ]
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Isoherranen, 2004",
@@ -6084,6 +6671,97 @@
           "Name": "CYP3A4-Isoherranen, 2004",
           "MoleculeName": "CYP3A4",
           "CompoundName": "N-desalkyl-Itraconazole"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -0.9854437,
+              "Max": 95.46672,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Felodipine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Jalava_Treatment|Organism|PeripheralVenousBlood|Felodipine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Jalava_Treatment|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Jalava 1997 - Itraconazole DDI, treatment group - Felodipine - PO - 5 mg - Plasma - agg. (n=9)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Jalava 1997 - Itraconazole DDI, treatment group - Felodipine - PO - 5 mg - Plasma - agg. (n=9)|Time",
+              "Y": "Jalava 1997 - Itraconazole DDI, treatment group - Felodipine - PO - 5 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Jalava 1997 - 200mg-PO-DDI - Itraconazole - PO - 200 mg - Plasma - agg. (n=9)-Itraconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Jalava 1997 - 200mg-PO-DDI - Itraconazole - PO - 200 mg - Plasma - agg. (n=9)|Time",
+              "Y": "Jalava 1997 - 200mg-PO-DDI - Itraconazole - PO - 200 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Felodipine-Model\nJalava_Treatment\n2022-08-16 15:20"
         }
       ]
     },
@@ -6431,7 +7109,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Felodipine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Oral solution|Organism|PeripheralVenousBlood|Felodipine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Edgar 1987 - 10mg-PO solution - Felodipine - PO - 10 mg - Plasma - agg. (n=12)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Edgar 1987 - 10mg-PO solution - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Edgar 1987 - 10mg-PO solution - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Felodipine-Model\nOral solution\n2022-08-16 15:21"
+        }
+      ]
     },
     {
       "Name": "Oral solution MD",
@@ -6851,7 +7598,87 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Felodipine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Oral solution MD|Organism|PeripheralVenousBlood|Felodipine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Edgar 1987 - 10mg-PO solution - Felodipine - PO - 10 mg - Plasma - agg. (n=12)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Edgar 1987 - 10mg-PO solution - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Edgar 1987 - 10mg-PO solution - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Blychert 1990 - Study I-10mg-PO solution - Felodipine - PO - 10 mg - Plasma - agg. (n=18)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Blychert 1990 - Study I-10mg-PO solution - Felodipine - PO - 10 mg - Plasma - agg. (n=18)|Time",
+              "Y": "Blychert 1990 - Study I-10mg-PO solution - Felodipine - PO - 10 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Felodipine-Model\nOral solution MD\n2022-08-16 15:22"
+        }
+      ]
     },
     {
       "Name": "ER tablet 10mg_test",
@@ -7241,7 +8068,131 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Felodipine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "ER tablet 10mg_test|Organism|PeripheralVenousBlood|Felodipine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Lundahl 1997 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Lundahl 1997 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Lundahl 1997 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Dresser 2017 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=5)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Dresser 2017 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=5)|Time",
+              "Y": "Dresser 2017 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Dresser 2002 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=11)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Dresser 2002 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=11)|Time",
+              "Y": "Dresser 2002 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Bailey 2000 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Bailey 2000 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Bailey 2000 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Bailey 1998 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Bailey 1998 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Bailey 1998 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Madsen 1996 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Madsen 1996 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Madsen 1996 - 10mg-PO ER tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#C000C0",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Felodipine-Model\nER tablet 10mg_test\n2022-08-16 15:23"
+        }
+      ]
     },
     {
       "Name": "ER tablet 5mg_test",
@@ -7600,7 +8551,80 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -0.4175867,
+              "Max": 33.85949,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 2.996388e-05,
+              "Max": 0.007465854,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Felodipine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "ER tablet 5mg_test|Organism|PeripheralVenousBlood|Felodipine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Dresser 2000 - 5mg-PO ER tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=12)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Dresser 2000 - 5mg-PO ER tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Dresser 2000 - 5mg-PO ER tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Felodipine-Model\nER tablet 5mg_test\n2022-08-16 15:27"
+        }
+      ]
     },
     {
       "Name": "ER tablet OD 10mg_test",
@@ -8152,7 +9176,80 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -10.6782,
+              "Max": 346.3781,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0001594874,
+              "Max": 0.02771711,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Felodipine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "ER tablet OD 10mg_test|Organism|PeripheralVenousBlood|Felodipine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Blychert 1990 - Study II-10mg-PO ER tablet-trial - Felodipine - PO - 10 mg - Plasma - agg. (n=15)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Blychert 1990 - Study II-10mg-PO ER tablet-trial - Felodipine - PO - 10 mg - Plasma - agg. (n=15)|Time",
+              "Y": "Blychert 1990 - Study II-10mg-PO ER tablet-trial - Felodipine - PO - 10 mg - Plasma - agg. (n=15)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Felodipine-Model\nER tablet OD 10mg_test\n2022-08-16 15:28"
+        }
+      ]
     },
     {
       "Name": "ER tablet OD 2.5/5mg_test",
@@ -8600,7 +9697,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Felodipine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "ER tablet OD 2.5/5mg_test|Organism|PeripheralVenousBlood|Felodipine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Dresser 2000 - 2.5mg,5mg-PO ER tablet - Felodipine - PO - 2.5, 5 mg - Plasma - agg. (n=6)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Dresser 2000 - 2.5mg,5mg-PO ER tablet - Felodipine - PO - 2.5, 5 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Dresser 2000 - 2.5mg,5mg-PO ER tablet - Felodipine - PO - 2.5, 5 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Felodipine-Model\nER tablet OD 2.5/5mg_test\n2022-08-16 15:29"
+        }
+      ]
     },
     {
       "Name": "IR tablet BID 10mg_test",
@@ -9026,7 +10192,98 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Felodipine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "IR tablet BID 10mg_test|Organism|PeripheralVenousBlood|Felodipine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Smith 1987 - 10mg-PO IR tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=8)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Smith 1987 - 10mg-PO IR tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Smith 1987 - 10mg-PO IR tablet - Felodipine - PO - 10 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Blychert 1990 - Study I-10mg-PO IR tablet-market - Felodipine - PO - 10 mg - Plasma - agg. (n=18)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Blychert 1990 - Study I-10mg-PO IR tablet-market - Felodipine - PO - 10 mg - Plasma - agg. (n=18)|Time",
+              "Y": "Blychert 1990 - Study I-10mg-PO IR tablet-market - Felodipine - PO - 10 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Blychert 1990 - Study I-10mg-PO IR tablet-trial - Felodipine - PO - 10 mg - Plasma - agg. (n=18)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Blychert 1990 - Study I-10mg-PO IR tablet-trial - Felodipine - PO - 10 mg - Plasma - agg. (n=18)|Time",
+              "Y": "Blychert 1990 - Study I-10mg-PO IR tablet-trial - Felodipine - PO - 10 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Felodipine-Model\nIR tablet BID 10mg_test\n2022-08-16 15:30"
+        }
+      ]
     },
     {
       "Name": "IR tablet OD 10mg_test",
@@ -9452,7 +10709,80 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -10.6782,
+              "Max": 346.3781,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0001594874,
+              "Max": 0.02771711,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Felodipine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "IR tablet OD 10mg_test|Organism|PeripheralVenousBlood|Felodipine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Blychert 1990 - Study II-10mg-PO IR tablet-market - Felodipine - PO - 10 mg - Plasma - agg. (n=15)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Blychert 1990 - Study II-10mg-PO IR tablet-market - Felodipine - PO - 10 mg - Plasma - agg. (n=15)|Time",
+              "Y": "Blychert 1990 - Study II-10mg-PO IR tablet-market - Felodipine - PO - 10 mg - Plasma - agg. (n=15)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Felodipine-Model\nIR tablet OD 10mg_test\n2022-08-16 15:30"
+        }
+      ]
     },
     {
       "Name": "IR tablet TID 5mg_test",
@@ -9884,7 +11214,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Felodipine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "IR tablet TID 5mg_test|Organism|PeripheralVenousBlood|Felodipine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Bratel 1989 - 5mg-PO IR tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=11)-Felodipine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Bratel 1989 - 5mg-PO IR tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=11)|Time",
+              "Y": "Bratel 1989 - 5mg-PO IR tablet - Felodipine - PO - 5 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Felodipine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Felodipine-Model\nIR tablet TID 5mg_test\n2022-08-16 15:31"
+        }
+      ]
     }
   ],
   "ParameterIdentifications": [
@@ -9908,12 +11307,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -9933,7 +11332,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -10649,7 +12048,7 @@
             },
             {
               "Name": "MinValue",
-              "Value": 1E-05,
+              "Value": 1e-05,
               "ValueOrigin": {}
             },
             {
@@ -10681,7 +12080,7 @@
             },
             {
               "Name": "MinValue",
-              "Value": 1E-08,
+              "Value": 1e-08,
               "Unit": "1/min",
               "ValueOrigin": {}
             },
@@ -12456,7 +13855,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 384.254,
-            "LLOQ": 2.5E-10
+            "LLOQ": 2.5e-10
           },
           "Values": [
             0.00016398715,
@@ -12818,7 +14217,7 @@
             0.0028673646,
             0.002379878,
             0.0017971558,
-            6.925705E-05
+            6.925705e-05
           ],
           "Dimension": "Concentration (molar)",
           "Unit": "µmol/l"
@@ -15387,7 +16786,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 384.254,
-            "LLOQ": 1E-09
+            "LLOQ": 1e-09
           },
           "Values": [
             0.00015004937,
@@ -16686,7 +18085,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 384.254,
-            "LLOQ": 1E-09
+            "LLOQ": 1e-09
           },
           "Values": [
             0.0003237907,
