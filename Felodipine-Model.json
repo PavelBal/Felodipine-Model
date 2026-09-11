@@ -1,6 +1,7 @@
 {
   "Name": "Felodipine-Model",
   "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -18306,6 +18307,5 @@
         "IR tablet TID 5mg_test"
       ]
     }
-  ],
-  "ApplicationName": "PK-Sim"
+  ]
 }
