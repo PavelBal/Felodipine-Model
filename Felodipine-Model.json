@@ -2915,21 +2915,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO SD 10mg|Felodipine_ER tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO SD 10mg|Felodipine_ER tablet|Application_1|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Felodipine|P (interstitial->intracellular)",
           "Value": 0.0891674187,
           "Unit": "cm/min",
@@ -3393,21 +3378,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO SD 5mg|Felodipine_ER tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO SD 5mg|Felodipine_ER tablet|Application_1|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Felodipine|P (interstitial->intracellular)",
           "Value": 0.0891674187,
           "Unit": "cm/min",
@@ -3843,216 +3813,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_1|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_10|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_11|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_12|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_13|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_14|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_2|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_3|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_4|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_5|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_6|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_7|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_8|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_9|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Felodipine|P (interstitial->intracellular)",
           "Value": 0.0891674187,
@@ -4515,12 +4275,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO SD 10mg|Felodipine_IR tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Felodipine|P (interstitial->intracellular)",
           "Value": 0.0891674187,
           "Unit": "cm/min",
@@ -4934,12 +4688,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|PO SD 5mg|Felodipine_IR tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Felodipine|P (interstitial->intracellular)",
           "Value": 0.0891674187,
@@ -5370,12 +5118,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|IV 1.5mg (60min)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 60.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Felodipine|P (interstitial->intracellular)",
           "Value": 0.0891674187,
           "Unit": "cm/min",
@@ -5778,21 +5520,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|PO SD 5mg|Felodipine_ER tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO SD 5mg|Felodipine_ER tablet|Application_1|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Felodipine|P (interstitial->intracellular)",
           "Value": 0.0891674187,
@@ -6205,45 +5932,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|Jalava_Treatment_Felodipine|Felodipine_ER tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Jalava_Treatment_Felodipine|Felodipine_ER tablet|Application_1|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|Jalava_Treatment_Itraconazole|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Jalava_Treatment_Itraconazole|Solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Jalava_Treatment_Itraconazole|Solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Jalava_Treatment_Itraconazole|Solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Felodipine|P (interstitial->intracellular)",
           "Value": 0.0891674187,
@@ -6821,12 +6509,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO SD 10mg|Felodipine_Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Felodipine|P (interstitial->intracellular)",
           "Value": 0.0891674187,
           "Unit": "cm/min",
@@ -7238,78 +6920,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_Oral solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_Oral solution|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_Oral solution|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_Oral solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_Oral solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_Oral solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_Oral solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Felodipine|P (interstitial->intracellular)",
           "Value": 0.0891674187,
@@ -7742,21 +7352,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|PO SD 10mg|Felodipine_ER tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO SD 10mg|Felodipine_ER tablet|Application_1|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Felodipine|P (interstitial->intracellular)",
           "Value": 0.0891674187,
@@ -8252,21 +7847,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO SD 5mg|Felodipine_ER tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO SD 5mg|Felodipine_ER tablet|Application_1|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Felodipine|P (interstitial->intracellular)",
           "Value": 0.0891674187,
           "Unit": "cm/min",
@@ -8684,216 +8264,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_1|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_10|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_11|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_12|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_13|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_14|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_2|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_3|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_4|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_5|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_6|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_7|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_8|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_ER tablet|Application_9|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'PI_IV+Solution+ER+DDI_additionalCL_3' on 2022-08-10 10:41"
-          }
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Felodipine|P (interstitial->intracellular)",
           "Value": 0.0891674187,
           "Unit": "cm/min",
@@ -9309,110 +8679,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO OD2 2.5mg, OD6 5mg|Felodipine_ER tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD2 2.5mg, OD6 5mg|Felodipine_ER tablet|Application_1|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Events|PO OD2 2.5mg, OD6 5mg|Felodipine_ER tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD2 2.5mg, OD6 5mg|Felodipine_ER tablet|Application_2|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Events|PO OD2 2.5mg, OD6 5mg|Felodipine_ER tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD2 2.5mg, OD6 5mg|Felodipine_ER tablet|Application_3|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Events|PO OD2 2.5mg, OD6 5mg|Felodipine_ER tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD2 2.5mg, OD6 5mg|Felodipine_ER tablet|Application_4|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Events|PO OD2 2.5mg, OD6 5mg|Felodipine_ER tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD2 2.5mg, OD6 5mg|Felodipine_ER tablet|Application_5|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Events|PO OD2 2.5mg, OD6 5mg|Felodipine_ER tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD2 2.5mg, OD6 5mg|Felodipine_ER tablet|Application_6|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Events|PO OD2 2.5mg, OD6 5mg|Felodipine_ER tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD2 2.5mg, OD6 5mg|Felodipine_ER tablet|Application_7|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Events|PO OD2 2.5mg, OD6 5mg|Felodipine_ER tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD2 2.5mg, OD6 5mg|Felodipine_ER tablet|Application_8|Tablet time delay factor",
-          "Value": 0.0695415108,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Felodipine|P (interstitial->intracellular)",
           "Value": 0.0891674187,
           "Unit": "cm/min",
@@ -9827,78 +9093,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_IR tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_IR tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_IR tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_IR tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_IR tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_IR tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_IR tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_IR tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_IR tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_IR tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_IR tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO BID6 10mg|Felodipine_IR tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Felodipine|P (interstitial->intracellular)",
           "Value": 0.0891674187,
@@ -10343,90 +9537,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO OD14 10mg|Felodipine_IR tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_IR tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_IR tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_IR tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_IR tablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_IR tablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_IR tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_IR tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_IR tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_IR tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_IR tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_IR tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_IR tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO OD14 10mg|Felodipine_IR tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Felodipine|P (interstitial->intracellular)",
           "Value": 0.0891674187,
           "Unit": "cm/min",
@@ -10841,96 +9951,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|PO TID5 5mg|Felodipine_IR tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO TID5 5mg|Felodipine_IR tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO TID5 5mg|Felodipine_IR tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO TID5 5mg|Felodipine_IR tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO TID5 5mg|Felodipine_IR tablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO TID5 5mg|Felodipine_IR tablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO TID5 5mg|Felodipine_IR tablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO TID5 5mg|Felodipine_IR tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO TID5 5mg|Felodipine_IR tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO TID5 5mg|Felodipine_IR tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO TID5 5mg|Felodipine_IR tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO TID5 5mg|Felodipine_IR tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO TID5 5mg|Felodipine_IR tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO TID5 5mg|Felodipine_IR tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO TID5 5mg|Felodipine_IR tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Felodipine|P (interstitial->intracellular)",
           "Value": 0.0891674187,
