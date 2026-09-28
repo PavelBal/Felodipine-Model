@@ -1566,13 +1566,6 @@
             "Source": "Internet",
             "Description": "DrugBank DB01023"
           }
-        },
-        {
-          "Name": "Use bile salt micellization",
-          "Value": 0.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
         }
       ]
     },
@@ -1965,13 +1958,6 @@
           "Value": 721.633,
           "Unit": "g/mol",
           "ValueOrigin": {}
-        },
-        {
-          "Name": "Use bile salt micellization",
-          "Value": 0.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
         }
       ]
     },
@@ -2118,13 +2104,6 @@
           "Value": 719.617,
           "Unit": "g/mol",
           "ValueOrigin": {}
-        },
-        {
-          "Name": "Use bile salt micellization",
-          "Value": 0.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
         }
       ]
     },
@@ -2267,13 +2246,6 @@
           "Value": 649.527,
           "Unit": "g/mol",
           "ValueOrigin": {}
-        },
-        {
-          "Name": "Use bile salt micellization",
-          "Value": 0.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
         }
       ]
     }
